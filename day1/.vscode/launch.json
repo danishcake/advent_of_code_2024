@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Rust Debug",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/target/debug/aoc.exe",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "rust: cargo build",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
