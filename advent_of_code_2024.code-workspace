@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "root"
+    },
+    {
+      "path": "./day1",
+      "name": "day1"
+    },
+    {
+      "path": "./day2",
+      "name": "day2"
+    },
+    {
+      "path": "./day3",
+      "name": "day3"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.exclude": {
+      "**/.git": true,
+      "**/target/*": true,
+      "**/Thumbs.db": true
+    }
+  }
+}
